@@ -169,6 +169,7 @@ namespace OnlineBeratungstermin.Controllers
                     return false;
 
                 // Check if the requested appointment overlaps with existing appointments
+                //Todo: We need to check Termin based on BeraterID and Time but developed simple we should have a method called Reserve to keep termin safe
                 bool isOverlapping = _dbContext.Termine.Any(t =>
                     t.Start < termin.Ende &&
                     t.Ende > termin.Start &&
