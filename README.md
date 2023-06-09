@@ -23,4 +23,4 @@
 
 4. Write more complex tests to check all possible conditions of Get and Post, run stress test 
 
-5. We need to have a rererve method to manage the time duration of making appointment 
+5. We need to have a reserve method to manage the time duration of making appointment. We have to check duplicate or overlapped appointments
